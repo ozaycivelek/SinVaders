@@ -1,0 +1,27 @@
+One night, one language, one framework, one game
+
+Initially started as a Space Invaders clone and ended up with.. Well.. This..
+
+Things to add
+- Clean up code
+  - Implement screen objects as derivation of standard interfaces (easier to add more stuff)
+  - Place game logic into a Class and call SinVader().run(), get rid of global vars
+  - Auto detect max screen resolution and adjust to it
+- Implement LIVES
+- Music and Fonts support
+  - On screen score, lives
+- Start Menu with HighScores, Options
+- Pick up item logic
+  - Pick up boost
+- New weapons
+  - Pick up weapons with limited lifetime
+  - Limited Ammo weapons (bombs, cluster bombs, gravity bomb [aka generate blackhole], open wormhole)
+- Keyboard combo moves (teleport, slide through missles)
+- Level Designer
+- Background bound static structures
+  - Hit and kill surfaces
+  - Surface bound turrets, enemy spawn stations
+- Use Sprites
+- Boss
+
+
