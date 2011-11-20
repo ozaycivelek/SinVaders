@@ -13,7 +13,7 @@ import math
 import sys
 import time
 
-screen_resolution = [1024,768]
+screen_resolution = pygame.display.list_modes().pop(0)
 screen = pygame.display.set_mode(screen_resolution, pygame.FULLSCREEN, 32)
 pygame.display.set_caption("SinVaders")
 pygame.mouse.set_visible(False)

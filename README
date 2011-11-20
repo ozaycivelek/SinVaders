@@ -6,7 +6,6 @@ Things to add
 - Clean up code
   - Implement screen objects as derivation of standard interfaces (easier to add more stuff)
   - Place game logic into a Class and call SinVader().run(), get rid of global vars
-  - Auto detect max screen resolution and adjust to it
 - Implement LIVES
 - Music and Fonts support
   - On screen score, lives
