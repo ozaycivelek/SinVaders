@@ -13,6 +13,7 @@ import math
 import sys
 import time
 
+pygame.init()
 screen_resolution = pygame.display.list_modes().pop(0)
 screen = pygame.display.set_mode(screen_resolution, pygame.FULLSCREEN, 32)
 pygame.display.set_caption("SinVaders")
@@ -351,6 +352,7 @@ def check_collision(screen_objects, ship):
 						if is_point_in_rectangle(point, alien_object_corners):
 							SCORE += alien_object.score
 							alien_object.active = False
+							obj.active = False
 							screen_objects.append(explosion(alien_object.center))
 	return screen_objects		
 		
